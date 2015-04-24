@@ -6,7 +6,7 @@ library(R.utils)
 #' creates connection to local UCSC database
 #'
 #' @param genome_freeze is geanome name as defined by UCSC
-#' @param config_file should be absolute path 
+#' @param config_file should be absolute path (the database name is ignored)
 #' @return connection object (to be used with all API)
 connect_to_genome_db <- function(genome_freeze, config_file) {
     stopifnot(genome_freeze == "hg18")
