@@ -1,0 +1,5 @@
+[client]
+host=put_real_host
+user=real_user_name
+password=real_password
+port=3306
